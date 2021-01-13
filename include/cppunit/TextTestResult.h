@@ -23,6 +23,7 @@ class CPPUNIT_API TextTestResult : public TestResult,
 public:
   TextTestResult();
 
+  virtual void addFailure( Test *test, Exception *e ) { TestResult::addFailure( test, e ); }
   virtual void addFailure( const TestFailure &failure );
   virtual void startTest( Test *test );
   virtual void print( OStream &stream );

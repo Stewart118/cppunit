@@ -14,7 +14,8 @@ AC_DEFUN([AX_CXX_HAVE_ISFINITE],
      AC_LINK_IFELSE(
        [AC_LANG_PROGRAM(
          [[#include <math.h>]],
-         [[int f = isfinite( 3 );]])],
+         [[int f = isfinite( 3 );]]
+         [[return f;]])],
        [ax_cv_cxx_have_isfinite=yes],
        [ax_cv_cxx_have_isfinite=no])
      AC_LANG_RESTORE])

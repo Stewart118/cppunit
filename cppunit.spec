@@ -1,5 +1,5 @@
 Name: cppunit
-Version: 1.12.1
+Version: 1.13.0
 Release: 2
 
 Summary: C++ Port of JUnit Testing Framework
