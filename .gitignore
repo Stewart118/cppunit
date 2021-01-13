@@ -3,6 +3,7 @@
 Makefile
 Makefile.in
 libtool
+*.la
 *.lo
 *.o
 *.loT
@@ -10,3 +11,4 @@ config.log
 config.status
 cppunit-config
 cppunit.pc
+autom4te.cache/
