@@ -1,0 +1,12 @@
+.libs/
+.deps/
+Makefile
+Makefile.in
+libtool
+*.lo
+*.o
+*.loT
+config.log
+config.status
+cppunit-config
+cppunit.pc
